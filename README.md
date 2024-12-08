@@ -3,7 +3,12 @@ Individual Implementation Portion of Early Implementation Deliverable for Snow L
 
 ## Aspect of Project 1: PowerPoint Scraper
 ### How to Run:
-*Instructions for running this component can be added here.*
+1. Open scraper folder in VS Code
+2. In terminal, install pdfplumber <pip install pdfplumber>
+3. In terminal, confirm installation <pip show pdfplumber>
+4. In terminal, install pymupdf <pip install pymupdf>
+5. In terminal, confirm installation <pip show pymupdf>
+6. Run pdf.scraper.py, enter "profile.pdf" in terminal when directed to "Enter the path to the PDF file:"
 
 ---
 
