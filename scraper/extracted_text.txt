@@ -1,0 +1,61 @@
+Page 1:
+A. Gjefle – Quality Assurance Lead
+785485@cognizant.com
+Montana (Mountain Time Zone)
+(406) 333-4444
+Experience
+Executive Summary
+Salesforce Service and Sales Cloud Enhancement – Manufacturing | Role – Quality Assurance Lead
+A. Gjefle excels in collaborative challenging environments where
+• Create and execute test scripts for functional, performance and regression testing
+opportunities to troubleshoot and solution obstacles is present. Staffed as
+• Identify, escalate, log and track defects
+a Lead Quality Assurance Analyst, Business Analyst, and fill in Scrum • Create process documentation and deliverable timeline for all QA activities
+Master, they have displayed skills in effective communication, relationship • Train QA team in new test management tool
+building, navigating ambiguity, and leadership, enabling them to maximize • Track and report on sprint-to-sprint testing activities
+• Collaborate with Developers to identify gaps in development and resolve defects
+team productivity. Always paying meticulous attention to details and
+Outcomes
+striving for consistent quality, they are an asset to any team. Working as a
+• Consistently completed sprint-to-sprint workload with minimal roll-over
+Salesforce consultant with Cognizant since February 2019.
+• Successfully trained and transitioned new QA team
+• Minimized and prevented defects in production
+Functional Expertise Certifications
+• Increased documentation and organization for testing efforts
+• Quality Assurance Testing • Salesforce Certified Administrator
+• Test Strategy • Salesforce Certified Platform App
+Salesforce Service and Sales Cloud Implementation – Utilities | Roles – Quality Assurance Lead & Scrum Master
+• User Story Lifecycle Tracking Builder
+• Data Analysis • Salesforce Certified Sales Cloud • Produce test scripts and define testing strategies
+• Business Analysis Consultant • Create test plans/test suites/release folders/sprint folders across 6 business tracks
+• Organize and facilitate UAT working sessions
+• Requirements and Document
+Gathering Industry Sectors • Facilitate knowledge transfers and demonstrations for test management software
+• Scrum Master • Education • Oversee defect resolution and delegate assignments for cross team collaboration
+• Utilities • Collaborate on sprint deliverable reporting for 3 different business tracks
+• Stakeholder Relations
+• Technology Outcomes
+• Safety and Industrial
+Technical Expertise • Efficient testing procedures and strategies and increased confidence in data integrity after data migrations
+• SFDC Sales Cloud Languages Spoken • Defect turnaround and prevention
+• SFDC Service Cloud • English • Increased documentation and organization for testing efforts
+• SFDC Marketing Cloud • Resource training and mentorship
+• Jira Mobility
+• ServiceNow • 25% availability for domestic and Salesforce Service, Sales and Knowledge Cloud Implementation – Education | Role – Business Analyst
+• Vera & qTest International travel. • Establish and enhance ongoing client relations
+• SharePoint • Organize and facilitate requirement definition sessions with product owners and stakeholders
+• Microsoft Excel • Create user stories and monitor lifecycle progress through sprint duration
+• Microsoft Office • Create defect tickets and track lifecycle to resolution.
+• Collaborate on UAT efforts and validation on testing results
+Methodologies
+Outcomes
+• Agile
+• Transparent communications between client expectations and Salesforce delivery
+• Waterfall
+• Consistency in meeting sprint-to-sprint deadlines
+• Atlas
+• Thorough documentation and organization for user story lifecycle tracking
+• Increased defect resolution and prevention
+ATG Cognizant Confidential | ‹#›
+
