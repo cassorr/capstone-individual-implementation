@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Creation</title>
+    <style>
+        /* styles for the body to make text readable and centered */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        /* form styling for width and alignment */
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+        /* label styling for spacing and bold text */
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        /* input, select, and textarea styling for consistent appearance */
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        /* button styling for consistent design */
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* button hover effect for better interactivity */
+        button:hover {
+            background-color: #0056b3;
+        }
+        /* styling for the experience section */
+        #experienceSection {
+            margin-bottom: 20px;
+            padding: 0;
+            border: none;
+        }
+        /* styling for individual project containers */
+        .project-container {
+            margin-bottom: 15px;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profile Creation</h1>
+    <form action="#" method="POST">
+        <!-- general information section -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="state">State:</label>
+        <select id="state" name="state" required>
+            <option value="">--Select State--</option>
+            <option value="CA">California</option>
+            <option value="NY">New York</option>
+            <!-- more states can be added here -->
+        </select>
+
+        <!-- additional information fields -->
+        <label for="languages">Languages Spoken:</label>
+        <input type="text" id="languages" name="languages" placeholder="e.g., English, Spanish">
+
+        <label for="industrySectors">Industry Sectors:</label>
+        <input type="text" id="industrySectors" name="industrySectors" placeholder="e.g., Technology, Healthcare">
+
+        <label for="executiveSummary">Executive Summary:</label>
+        <textarea id="executiveSummary" name="executiveSummary" rows="4" placeholder="Provide a brief executive summary"></textarea>
+
+        <label for="functionalExpertise">Functional Expertise:</label>
+        <textarea id="functionalExpertise" name="functionalExpertise" rows="4" placeholder="List your functional expertise"></textarea>
+
+        <label for="technicalExpertise">Technical Expertise:</label>
+        <textarea id="technicalExpertise" name="technicalExpertise" rows="4" placeholder="List your technical expertise"></textarea>
+
+        <label for="mobility">Mobility:</label>
+        <input type="text" id="mobility" name="mobility" placeholder="e.g., 25% travel availability">
+
+        <label for="methodologies">Methodologies:</label>
+        <textarea id="methodologies" name="methodologies" rows="4" placeholder="List methodologies you are familiar with"></textarea>
+
+        <label for="certifications">Certifications:</label>
+        <textarea id="certifications" name="certifications" rows="4" placeholder="List your certifications"></textarea>
+
+        <!-- experience section -->
+        <h2>Experience</h2>
+        <div id="experienceSection">
+            <!-- individual project container -->
+            <div class="project-container">
+                <label for="projectType">Project Type:</label>
+                <input type="text" id="projectType" name="projectType[]" placeholder="e.g., Web Development" required>
+
+                <label for="projectRole">Project Role:</label>
+                <input type="text" id="projectRole" name="projectRole[]" placeholder="e.g., Developer" required>
+
+                <label for="projectIndustry">Project Industry Sector:</label>
+                <input type="text" id="projectIndustry" name="projectIndustry[]" placeholder="e.g., Healthcare" required>
+
+                <label for="projectResponsibilities">Project Responsibilities and Accomplishments:</label>
+                <input type="text" id="projectResponsibilities" name="projectResponsibilities[]" placeholder="Describe your responsibilities" required>
+            </div>
+        </div>
+
+        <!-- button to add more projects -->
+        <button type="button" id="addProjectButton">Add Project</button>
+
+        <!-- submit button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // javascript to add new project fields
+        document.getElementById('addProjectButton').addEventListener('click', function() {
+            // get the experience section to add new fields
+            const experienceSection = document.getElementById('experienceSection');
+
+            // find the first project container to duplicate
+            const firstProject = document.querySelector('.project-container');
+
+            // clone the project container (including all its fields)
+            const newProject = firstProject.cloneNode(true);
+
+            // clear the input fields in the cloned container
+            const inputs = newProject.querySelectorAll('input, textarea');
+            inputs.forEach(input => {
+                input.value = ''; // set value to empty
+            });
+
+            // append the cloned container to the experience section
+            experienceSection.appendChild(newProject);
+        });
+    </script>
+</body>
+</html>
