@@ -1,7 +1,7 @@
 # Capstone-Individual-Implementation
 Individual Implementation Portion of Early Implementation Deliverable for Snow Leopard Team
 
-## Aspect of Project 1: PowerPoint Scraper
+## Aspect of Project 1: Profile Scraper
 ### How to Run:
 1. Open scraper folder in VS Code
 2. In terminal, install pdfplumber <pip install pdfplumber>
@@ -39,7 +39,7 @@ My first implementation was the PDF scraper, which extracts text from a PDF file
 
 #### HTML for Profile Creation View
 - **Challenge:** When the "Add Project" button is clicked, the duplicated fields have the same IDs as the original fields, which can cause issues with form validation or JavaScript.
-- **Solution:** Remove or update the IDs in the duplicated fields to ensure they are unique. For example, we could can remove the IDs entirely or add a unique number to them when duplicating the fields.
+- **Solution:** Remove or update the IDs in the duplicated fields to ensure they are unique. For example, we could remove the IDs entirely or add a unique number to them when duplicating the fields.
 
 ---
 
